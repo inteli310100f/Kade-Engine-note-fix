@@ -1,12 +1,6 @@
-		if (unspawnNotes.length > 0) {
-			var thresholdTime = Conductor.songPosition + 3500;
-			var i = unspawnNotes.length - 1; // start from the end
-		
-			while (i >= 0) {
-				if (unspawnNotes[i].strumTime < thresholdTime) {
-					notes.add(unspawnNotes[i]);
-					unspawnNotes.splice(i, 1);
-				}
-				i--;
-			}
-		}
+var thresholdTime = Conductor.songPosition + 3500;
+
+while (unspawnNotes.length > 0 && unspawnNotes[unspawnNotes.length - 1].strumTime < thresholdTime) {
+    notes.add(unspawnNotes[unspawnNotes.length - 1]);
+    unspawnNotes.pop();
+}
