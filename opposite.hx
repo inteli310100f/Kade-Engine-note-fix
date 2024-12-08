@@ -11,3 +11,5 @@ if (unspawnNotes.length > 0) {
         i++; // always increment, even if an element was removed
     }
 }
+
+// also this doesn't work i already tested
