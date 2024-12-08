@@ -4,3 +4,5 @@ while (unspawnNotes.length > 0 && unspawnNotes[unspawnNotes.length - 1].strumTim
     notes.add(unspawnNotes[unspawnNotes.length - 1]);
     unspawnNotes.pop();
 }
+
+// improved by snirozu
