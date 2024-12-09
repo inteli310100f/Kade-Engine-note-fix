@@ -7,3 +7,5 @@ replace code starting from line 2409 to 2419 in PlayState.hx
 
 
 i used kade engine 1.5.4 so idk about the other versions
+
+works on vs bob
