@@ -1,5 +1,5 @@
 		if (unspawnNotes.length > 0) {
-			var thresholdTime = Conductor.songPosition + 3500;
+			var thresholdTime = Conductor.songPosition + 600;
 			var i = unspawnNotes.length - 1; // start from the end
 		
 			while (i >= 0) {
